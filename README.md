@@ -30,6 +30,7 @@
 2022-01-01T18:00:00.000+0800    info    coremain/service.go:130 service is starting
 2022-01-01T18:00:00.000+0800    info    coremain/service.go:138 service is running
 ```
+**如果按照我的方法进行却出现了问题，请善用日志文件和`.\mosdns -h`自查一遍问题再提出issue，谢谢**
 ## 半自动脚本
 > 咕咕中
 ## 自动分流+广告屏蔽配置（借助v2ray-rules-dat中的`geosite.dat`和`geoip.dat`）
