@@ -155,3 +155,6 @@ servers:
 api:
   http: "127.0.0.1:8080"
 ```
+
+## 鸣谢
+[ItiineSistiana/mosdns](https://github.com/IrineSistiana/mosdns)
