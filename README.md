@@ -1,7 +1,16 @@
 # Easier-mosdns
-## 自用心得
+## 自用心得（Windows）
 >注意:需要用到Windows PowerShell
-
+### 直接使用
+- 1、打开PowerShell（管理员）,cd到放置mosdns文件的目录（下文以`D:\mosdns`指代）
+```
+ cd D:\mosdns
+```
+- 2、键入如下命令，回车
+```
+ .\mosdns start -c D:\mosdns\config_mosdns.yaml -d D:\mosdns
+```
+- 3、如出现`2022-01-01T18:00:00.00+0800    info    coremain/run.go:107     working directory changed       {"path": "D:\mosdns"}`且没有其他信息即代表成功启动
 ## 自动分流+广告屏蔽配置（借助v2ray-rules-dat中的`geosite.dat`和`geoip.dat`）
 ```
 log:
