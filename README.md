@@ -4,7 +4,8 @@
 
 [Mirror(FastGit)](https://download.fastgit.org/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
 ## 自用心得（Windows）
->注意:需要用到Windows PowerShell
+>注意:需要用到Windows PowerShell<br>
+>***如果按照我的方法进行配置却出现了问题，请善用日志文件和`.\mosdns -h`自查一遍问题再提出issue，谢谢***
 ### 直接使用
 - 1、打开PowerShell（管理员）,cd到放置mosdns文件的目录（下文以`D:\mosdns`指代）
 ```
