@@ -1,4 +1,6 @@
 # Easier-mosdns
+## 自用版本打包
+
 ## 自用心得（Windows）
 >注意:需要用到Windows PowerShell
 ### 直接使用
@@ -10,7 +12,22 @@
 ```
  .\mosdns start -c D:\mosdns\config_mosdns.yaml -d D:\mosdns
 ```
-- 3、如出现`2022-01-01T18:00:00.00+0800    info    coremain/run.go:107     working directory changed       {"path": "D:\mosdns"}`且没有其他信息即代表成功启动
+- 3、如出现
+    `2022-01-01T18:00:00.00+0800    info    coremain/run.go:107     working directory changed       {"path": "D:\mosdns"}`
+    且没有其他信息即代表成功启动
+### 安装为系统服务
+- 1、打开PowerShell（管理员）,cd到`D:\mosdns`
+- 2、键入如下命令，回车
+```
+.\mosdns service install -d D:\mosdns -c D:\mosdns\config_mosdns.yaml
+再输入：
+.\mosdns service start
+```
+- 3、如果出现以下信息即代表启动成功
+```
+2022-01-01T18:00:00.000+0800    info    coremain/service.go:130 service is starting
+2022-01-01T18:00:00.000+0800    info    coremain/service.go:138 service is running
+```
 ## 自动分流+广告屏蔽配置（借助v2ray-rules-dat中的`geosite.dat`和`geoip.dat`）
 ```
 log:
