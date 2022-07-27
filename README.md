@@ -159,4 +159,4 @@ api:
 ```
 
 ## 鸣谢
-- [ItiineSistiana/mosdns](https://github.com/IrineSistiana/mosdns)
+- [ItiineSistiana/mosdns](https://github.com/IrineSistiana/mosdns) : GNU General Public License v3.0
