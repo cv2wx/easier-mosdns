@@ -2,7 +2,7 @@
 ## 自用版本打包（Windows）
 [Link](https://github.com/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
 
-[Mirror-FastGit](https://download.fastgit.org/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
+[Mirror(FastGit)](https://download.fastgit.org/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
 ## 自用心得（Windows）
 >注意:需要用到Windows PowerShell
 ### 直接使用
