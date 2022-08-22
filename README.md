@@ -1,11 +1,15 @@
 # Easier-mosdns
+
 ## 自用版本打包（4.18,Windows x64）
 [Link](https://github.com/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
 
 [Mirror(FastGit)](https://download.fastgit.org/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
+
 ## 自用心得（Windows）
+
 >注意:需要用到Windows PowerShell<br>
 >***如果按照我的方法进行配置却出现了问题，请善用日志文件和`.\mosdns -h`自查一遍问题再提出issue，谢谢***
+
 ### 直接使用
 - 1、打开PowerShell（管理员）,cd到放置mosdns文件的目录（下文以`D:\mosdns`指代）
 ```
@@ -36,7 +40,9 @@
 ***如果按照我的方法进行配置却出现了问题，请善用日志文件和`.\mosdns -h`自查一遍问题再提出issue，谢谢***
 
 ## 半自动脚本
+
 > 咕咕中
+
 ## 自动分流+广告屏蔽配置（借助v2ray-rules-dat中的`geosite.dat`和`geoip.dat`）
 ```
 log:
