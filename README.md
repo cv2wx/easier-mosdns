@@ -1,6 +1,6 @@
 # Easier-mosdns
 
-## 自用版本打包（4.18,Windows x64）
+## 自用版本打包（4.18, Windows x64）
 [Download Link](https://github.com/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
 
 [FastGit Mirror](https://hub.fgit.cf/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
@@ -9,7 +9,7 @@
 
 >注意:需要用到Windows PowerShell<br>
 
->***如果按照我的方法进行配置却出现了问题，请善用日志文件和`.\mosdns -h`自查一遍问题再提出issue，谢谢***
+>***如果按照我的方法进行配置却出现了问题，请善用日志文件和`.\mosdns -h`自查***
 
 ### 直接使用
 - 1、打开PowerShell（管理员）,cd到放置mosdns文件的目录（下文以`D:\mosdns`指代）
