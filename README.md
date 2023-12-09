@@ -3,7 +3,7 @@
 ## 自用版本打包（4.18,Windows x64）
 [Download Link](https://github.com/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
 
-[FastGit Mirror](https://hub.fastgit.xyz/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
+[FastGit Mirror](https://hub.fgit.cf/c2xvi/easier-mosdns/raw/main/archives/mosdns.7z)
 
 ## 自用心得（Windows）
 
